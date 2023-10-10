@@ -13,3 +13,10 @@ npm run dev
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add dropdown-menu
 ```
+
+## npm package update
+
+```bash
+npm outdated
+npm update
+```
