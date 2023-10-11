@@ -1,6 +1,7 @@
 "use client";
 
 import { signIn, signOut, useSession } from "next-auth/react";
+import Image from "next/image";
 import Link from "next/link";
 
 const AppBar = () => {
@@ -15,9 +16,12 @@ const AppBar = () => {
       <div className="flex gap-2 ml-auto">
         {session?.user ? (
           <>
-            <img
-              className="w-8 h-8 rounded-full"
+            <Image
               src={session.user.image || ""}
+              alt="user image"
+              width={100}
+              height={100}
+              className="w-8 h-8 rounded-full"
             />
             <p className="text-sky-600"> {session.user.email}</p>
             <button className="text-red-500" onClick={() => signOut()}>
