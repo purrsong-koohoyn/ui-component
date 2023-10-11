@@ -4,7 +4,7 @@ import { CaretSortIcon, CheckIcon } from "@radix-ui/react-icons";
 import { PopoverProps } from "@radix-ui/react-popover";
 import * as React from "react";
 
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Command,
   CommandEmpty,
@@ -12,18 +12,18 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/app/components/new-york-hover-card";
-import { Label } from "@/app/components/new-york-label";
+} from "@/components/new-york-hover-card";
+import { Label } from "@/components/new-york-label";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 import { useMutationObserver } from "@/hooks/use-mutation-observer";
 import { cn } from "@/lib/utils";
 

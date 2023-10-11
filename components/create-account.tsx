@@ -1,7 +1,7 @@
 "use client";
 
-import { Icons } from "@/app/components/icons";
-import { Button } from "@/app/components/new-york-button";
+import { Icons } from "@/components/icons";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
@@ -9,9 +9,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+} from "@/components/new-york-card";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 
 export function DemoCreateAccount() {
   return (

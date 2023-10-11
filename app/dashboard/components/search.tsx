@@ -1,4 +1,4 @@
-import { Input } from "@/app/components/new-york-input";
+import { Input } from "@/components/new-york-input";
 
 export function Search() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, buttonVariants } from "@/app/components/new-york-button";
+import { Button, buttonVariants } from "@/components/new-york-button";
 import {
   Form,
   FormControl,
@@ -9,12 +9,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/app/components/new-york-form";
-import {
-  RadioGroup,
-  RadioGroupItem,
-} from "@/app/components/new-york-radio-group";
-import { toast } from "@/app/components/new-york-use-toast";
+} from "@/components/new-york-form";
+import { RadioGroup, RadioGroupItem } from "@/components/new-york-radio-group";
+import { toast } from "@/components/new-york-use-toast";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ChevronDownIcon } from "@radix-ui/react-icons";

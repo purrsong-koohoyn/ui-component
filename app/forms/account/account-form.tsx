@@ -1,14 +1,14 @@
 "use client";
 
-import { Button } from "@/app/components/new-york-button";
-import { Calendar } from "@/app/components/new-york-calendar";
+import { Button } from "@/components/new-york-button";
+import { Calendar } from "@/components/new-york-calendar";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   Form,
   FormControl,
@@ -17,14 +17,14 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/app/components/new-york-form";
-import { Input } from "@/app/components/new-york-input";
+} from "@/components/new-york-form";
+import { Input } from "@/components/new-york-input";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
-import { toast } from "@/app/components/new-york-use-toast";
+} from "@/components/new-york-popover";
+import { toast } from "@/components/new-york-use-toast";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CalendarIcon, CaretSortIcon, CheckIcon } from "@radix-ui/react-icons";

@@ -1,5 +1,5 @@
-import { buttonVariants } from "@/app/components/new-york-button";
-import { UserAuthForm } from "@/app/components/user-auth-form";
+import { buttonVariants } from "@/components/new-york-button";
+import { UserAuthForm } from "@/components/user-auth-form";
 import { cn } from "@/lib/utils";
 import { Metadata } from "next";
 import Link from "next/link";

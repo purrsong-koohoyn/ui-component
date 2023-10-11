@@ -1,5 +1,5 @@
-import { Separator } from "@/app/components/new-york-separator";
-import { SidebarNav } from "@/app/components/sidebar-nav";
+import { Separator } from "@/components/new-york-separator";
+import { SidebarNav } from "@/components/sidebar-nav";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

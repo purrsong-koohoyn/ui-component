@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
+} from "@/components/new-york-card";
 import { BellIcon, EyeNoneIcon, PersonIcon } from "@radix-ui/react-icons";
 
 export function DemoNotifications() {

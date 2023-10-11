@@ -1,14 +1,14 @@
 import { Metadata } from "next";
 
-import { DemoCookieSettings } from "@/app/components/cookie-settings";
-import { DemoCreateAccount } from "@/app/components/create-account";
-import { DemoDatePicker } from "@/app/components/date-picker";
-import { DemoGithub } from "@/app/components/github-card";
-import { DemoNotifications } from "@/app/components/notifications";
-import { DemoPaymentMethod } from "@/app/components/payment-method";
-import { DemoReportAnIssue } from "@/app/components/report-an-issue";
-import { DemoShareDocument } from "@/app/components/share-document";
-import { DemoTeamMembers } from "@/app/components/team-members";
+import { DemoCookieSettings } from "@/components/cookie-settings";
+import { DemoCreateAccount } from "@/components/create-account";
+import { DemoDatePicker } from "@/components/date-picker";
+import { DemoGithub } from "@/components/github-card";
+import { DemoNotifications } from "@/components/notifications";
+import { DemoPaymentMethod } from "@/components/payment-method";
+import { DemoReportAnIssue } from "@/components/report-an-issue";
+import { DemoShareDocument } from "@/components/share-document";
+import { DemoTeamMembers } from "@/components/team-members";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {

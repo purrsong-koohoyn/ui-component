@@ -1,4 +1,4 @@
-import { Separator } from "@/app/components/new-york-separator";
+import { Separator } from "@/components/new-york-separator";
 import { ProfileForm } from "@/app/forms/profile-form";
 
 export default function FormsPage() {

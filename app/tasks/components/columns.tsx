@@ -2,8 +2,8 @@
 
 import { ColumnDef } from "@tanstack/react-table";
 
-import { Badge } from "@/app/components/new-york-badge";
-import { Checkbox } from "@/app/components/new-york-checkbox";
+import { Badge } from "@/components/new-york-badge";
+import { Checkbox } from "@/components/new-york-checkbox";
 
 import { labels, priorities, statuses } from "../data/data";
 import { Task } from "../data/schema";

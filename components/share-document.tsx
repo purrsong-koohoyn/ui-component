@@ -4,24 +4,24 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/app/components/new-york-avatar";
-import { Button } from "@/app/components/new-york-button";
+} from "@/components/new-york-avatar";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
-import { Input } from "@/app/components/new-york-input";
+} from "@/components/new-york-card";
+import { Input } from "@/components/new-york-input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/new-york-select";
-import { Separator } from "@/app/components/new-york-separator";
+} from "@/components/new-york-select";
+import { Separator } from "@/components/new-york-separator";
 
 export function DemoShareDocument() {
   return (

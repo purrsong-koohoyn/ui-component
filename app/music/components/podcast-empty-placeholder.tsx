@@ -1,4 +1,4 @@
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/app/components/new-york-dialog";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+} from "@/components/new-york-dialog";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 
 export function PodcastEmptyPlaceholder() {
   return (

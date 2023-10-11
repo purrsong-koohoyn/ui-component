@@ -1,4 +1,4 @@
-import { Label } from "@/app/components/new-york-label";
+import { Label } from "@/components/new-york-label";
 import { cn } from "@/lib/utils";
 import * as LabelPrimitive from "@radix-ui/react-label";
 import { Slot } from "@radix-ui/react-slot";

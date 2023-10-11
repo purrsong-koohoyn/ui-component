@@ -11,8 +11,8 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/app/components/new-york-avatar";
-import { Button } from "@/app/components/new-york-button";
+} from "@/components/new-york-avatar";
+import { Button } from "@/components/new-york-button";
 import {
   Command,
   CommandEmpty,
@@ -21,7 +21,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   Dialog,
   DialogContent,
@@ -30,21 +30,21 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/app/components/new-york-dialog";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+} from "@/components/new-york-dialog";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/new-york-select";
+} from "@/components/new-york-select";
 import { cn } from "@/lib/utils";
 
 const groups = [

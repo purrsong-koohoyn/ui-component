@@ -1,9 +1,9 @@
 "use client";
 
-import { Icons } from "@/app/components/icons";
-import { Button } from "@/app/components/new-york-button";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+import { Icons } from "@/components/icons";
+import { Button } from "@/components/new-york-button";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 import { cn } from "@/lib/utils";
 import * as React from "react";
 

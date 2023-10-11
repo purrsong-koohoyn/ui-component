@@ -1,5 +1,5 @@
 import { AccountForm } from "@/app/forms/account/account-form";
-import { Separator } from "@/app/components/new-york-separator";
+import { Separator } from "@/components/new-york-separator";
 
 export default function SettingsAccountPage() {
   return (

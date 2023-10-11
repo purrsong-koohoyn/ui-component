@@ -1,6 +1,6 @@
 "use client";
 
-import { Dialog, DialogContent } from "@/app/components/new-york-dialog";
+import { Dialog, DialogContent } from "@/components/new-york-dialog";
 import { cn } from "@/lib/utils";
 import { DialogProps } from "@radix-ui/react-dialog";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";

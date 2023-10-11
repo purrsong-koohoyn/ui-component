@@ -1,5 +1,5 @@
 import { AppearanceForm } from "@/app/forms/appearance/appearance-form";
-import { Separator } from "@/app/components/new-york-separator";
+import { Separator } from "@/components/new-york-separator";
 
 export default function SettingsAppearancePage() {
   return (

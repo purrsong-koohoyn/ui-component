@@ -12,25 +12,25 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/app/components/new-york-alert-dialog";
-import { Button } from "@/app/components/new-york-button";
+} from "@/components/new-york-alert-dialog";
+import { Button } from "@/components/new-york-button";
 import {
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/app/components/new-york-dialog";
+} from "@/components/new-york-dialog";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/app/components/new-york-dropdown-menu";
-import { Label } from "@/app/components/new-york-label";
-import { Switch } from "@/app/components/new-york-switch";
-import { toast } from "@/app/components/new-york-use-toast";
+} from "@/components/new-york-dropdown-menu";
+import { Label } from "@/components/new-york-label";
+import { Switch } from "@/components/new-york-switch";
+import { toast } from "@/components/new-york-use-toast";
 
 export function PresetActions() {
   const [open, setIsOpen] = React.useState(false);

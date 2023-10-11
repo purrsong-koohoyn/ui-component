@@ -4,15 +4,15 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/app/components/new-york-avatar";
-import { Button } from "@/app/components/new-york-button";
+} from "@/components/new-york-avatar";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
+} from "@/components/new-york-card";
 import {
   Command,
   CommandEmpty,
@@ -20,12 +20,12 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 
 export function DemoTeamMembers() {
   return (

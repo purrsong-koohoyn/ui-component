@@ -1,6 +1,6 @@
-import DatePickerWithRange from "@/app/components/default-date-picker-with-range";
-import { Card, CardContent } from "@/app/components/new-york-card";
-import { Label } from "@/app/components/new-york-label";
+import DatePickerWithRange from "@/components/default-date-picker-with-range";
+import { Card, CardContent } from "@/components/new-york-card";
+import { Label } from "@/components/new-york-label";
 
 export function DemoDatePicker() {
   return (

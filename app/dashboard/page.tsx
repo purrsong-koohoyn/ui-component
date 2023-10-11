@@ -1,20 +1,20 @@
 import { Metadata } from "next";
 import Image from "next/image";
 
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
+} from "@/components/new-york-card";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/app/components/new-york-tabs";
+} from "@/components/new-york-tabs";
 
 import { CalendarDateRangePicker } from "./components/date-range-picker";
 import { MainNav } from "./components/main-nav";

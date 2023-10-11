@@ -1,15 +1,15 @@
 import { PlusCircledIcon } from "@radix-ui/react-icons";
 import { Metadata } from "next";
 
-import { Button } from "@/app/components/new-york-button";
-import { ScrollArea, ScrollBar } from "@/app/components/new-york-scroll-area";
-import { Separator } from "@/app/components/new-york-separator";
+import { Button } from "@/components/new-york-button";
+import { ScrollArea, ScrollBar } from "@/components/new-york-scroll-area";
+import { Separator } from "@/components/new-york-separator";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/app/components/new-york-tabs";
+} from "@/components/new-york-tabs";
 
 import { AlbumArtwork } from "./components/album-artwork";
 import { Menu } from "./components/menu";

@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useFieldArray, useForm } from "react-hook-form";
 import * as z from "zod";
 import { cn } from "@/lib/utils";
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Form,
   FormControl,
@@ -14,17 +14,17 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/app/components/new-york-form";
-import { Input } from "@/app/components/new-york-input";
+} from "@/components/new-york-form";
+import { Input } from "@/components/new-york-input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/new-york-select";
-import { Textarea } from "@/app/components/new-york-textarea";
-import { toast } from "@/app/components/new-york-use-toast";
+} from "@/components/new-york-select";
+import { Textarea } from "@/components/new-york-textarea";
+import { toast } from "@/components/new-york-use-toast";
 
 const profileFormSchema = z.object({
   username: z

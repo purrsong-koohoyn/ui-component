@@ -5,13 +5,13 @@ import { addDays, format } from "date-fns";
 import * as React from "react";
 import { DateRange } from "react-day-picker";
 
-import { Button } from "@/app/components/new-york-button";
-import { Calendar } from "@/app/components/new-york-calendar";
+import { Button } from "@/components/new-york-button";
+import { Calendar } from "@/components/new-york-calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 import { cn } from "@/lib/utils";
 
 export function CalendarDateRangePicker({

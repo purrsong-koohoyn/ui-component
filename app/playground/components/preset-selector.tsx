@@ -5,19 +5,19 @@ import { PopoverProps } from "@radix-ui/react-popover";
 import { useRouter } from "next/navigation";
 import * as React from "react";
 
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 import { cn } from "@/lib/utils";
 
 import { Preset } from "../data/presets";

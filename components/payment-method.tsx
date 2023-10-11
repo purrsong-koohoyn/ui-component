@@ -1,5 +1,5 @@
-import { Icons } from "@/app/components/icons";
-import { Button } from "@/app/components/new-york-button";
+import { Icons } from "@/components/icons";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
@@ -7,20 +7,17 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
-import {
-  RadioGroup,
-  RadioGroupItem,
-} from "@/app/components/new-york-radio-group";
+} from "@/components/new-york-card";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
+import { RadioGroup, RadioGroupItem } from "@/components/new-york-radio-group";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/new-york-select";
+} from "@/components/new-york-select";
 
 export function DemoPaymentMethod() {
   return (

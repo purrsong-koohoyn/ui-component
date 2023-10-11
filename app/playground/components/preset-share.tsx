@@ -1,13 +1,13 @@
 import { CopyIcon } from "@radix-ui/react-icons";
 
-import { Button } from "@/app/components/new-york-button";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+import { Button } from "@/components/new-york-button";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
+} from "@/components/new-york-popover";
 
 export function PresetShare() {
   return (

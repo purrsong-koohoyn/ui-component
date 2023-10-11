@@ -3,8 +3,8 @@
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { Table } from "@tanstack/react-table";
 
-import { Button } from "@/app/components/new-york-button";
-import { Input } from "@/app/components/new-york-input";
+import { Button } from "@/components/new-york-button";
+import { Input } from "@/components/new-york-input";
 
 import { priorities, statuses } from "../data/data";
 import { DataTableFacetedFilter } from "./data-table-faceted-filter";

@@ -7,7 +7,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@/app/components/new-york-context-menu";
+} from "@/components/new-york-context-menu";
 import { cn } from "@/lib/utils";
 import { PlusCircledIcon } from "@radix-ui/react-icons";
 import Image from "next/image";

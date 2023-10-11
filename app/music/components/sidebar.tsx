@@ -1,5 +1,5 @@
-import { Button } from "@/app/components/new-york-button";
-import { ScrollArea } from "@/app/components/new-york-scroll-area";
+import { Button } from "@/components/new-york-button";
+import { ScrollArea } from "@/components/new-york-scroll-area";
 
 import { Playlist } from "../data/playlists";
 

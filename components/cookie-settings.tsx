@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
-import { Label } from "@/app/components/new-york-label";
-import { Switch } from "@/app/components/new-york-switch";
+} from "@/components/new-york-card";
+import { Label } from "@/components/new-york-label";
+import { Switch } from "@/components/new-york-switch";
 
 export function DemoCookieSettings() {
   return (

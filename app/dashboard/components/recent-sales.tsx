@@ -2,7 +2,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/app/components/new-york-avatar";
+} from "@/components/new-york-avatar";
 
 export function RecentSales() {
   return (

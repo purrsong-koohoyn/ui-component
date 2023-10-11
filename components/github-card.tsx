@@ -1,11 +1,11 @@
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
+} from "@/components/new-york-card";
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -14,8 +14,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/app/components/new-york-dropdown-menu";
-import { Separator } from "@/app/components/new-york-separator";
+} from "@/components/new-york-dropdown-menu";
+import { Separator } from "@/components/new-york-separator";
 import {
   ChevronDownIcon,
   CircleIcon,

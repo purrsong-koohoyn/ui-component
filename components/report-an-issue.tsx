@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/app/components/new-york-button";
+import { Button } from "@/components/new-york-button";
 import {
   Card,
   CardContent,
@@ -8,17 +8,17 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/app/components/new-york-card";
-import { Input } from "@/app/components/new-york-input";
-import { Label } from "@/app/components/new-york-label";
+} from "@/components/new-york-card";
+import { Input } from "@/components/new-york-input";
+import { Label } from "@/components/new-york-label";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/new-york-select";
-import { Textarea } from "@/app/components/new-york-textarea";
+} from "@/components/new-york-select";
+import { Textarea } from "@/components/new-york-textarea";
 
 export function DemoReportAnIssue() {
   return (

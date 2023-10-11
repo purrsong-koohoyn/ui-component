@@ -2,8 +2,8 @@ import { CheckIcon, PlusCircledIcon } from "@radix-ui/react-icons";
 import { Column } from "@tanstack/react-table";
 import * as React from "react";
 
-import { Badge } from "@/app/components/new-york-badge";
-import { Button } from "@/app/components/new-york-button";
+import { Badge } from "@/components/new-york-badge";
+import { Button } from "@/components/new-york-button";
 import {
   Command,
   CommandEmpty,
@@ -12,13 +12,13 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/app/components/new-york-command";
+} from "@/components/new-york-command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/app/components/new-york-popover";
-import { Separator } from "@/app/components/new-york-separator";
+} from "@/components/new-york-popover";
+import { Separator } from "@/components/new-york-separator";
 import { cn } from "@/lib/utils";
 
 interface DataTableFacetedFilterProps<TData, TValue> {
