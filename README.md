@@ -20,3 +20,7 @@ npx shadcn-ui@latest add dropdown-menu
 npm outdated
 npm update
 ```
+
+## next auth
+
+http://localhost:3000/api/auth/providers

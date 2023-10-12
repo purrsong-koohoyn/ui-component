@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getServerSession } from "next-auth";
 
 import { inter } from "@/app/fonts";
 import SessionProvider from "@/providers/session-provider";
@@ -10,15 +11,17 @@ export const metadata: Metadata = {
   description: "Ninestring prictice app",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const session = await getServerSession();
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SessionProvider>
+        <SessionProvider session={session}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
